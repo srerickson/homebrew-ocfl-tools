@@ -1,5 +1,5 @@
 class Ocfl < Formula
-  desc "command-line tools for working with OCFL-based repositories"
+  desc "Command-line tools for working with OCFL-based repositories"
   homepage "https://github.com/srerickson/ocfl-tools"
   url "https://github.com/srerickson/ocfl-tools/archive/refs/tags/v0.1.3.tar.gz"
   sha256 "dbe3f519d283c26fdc7e164728fd7190a36a8b71626b5afab8c9fa56f44653a0"

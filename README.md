@@ -1,4 +1,4 @@
-# Homebrew Formula for ocfl-tools
+# Homebrew Formulae for ocfl-tools
 
 ## How do I install these formulae?
 
