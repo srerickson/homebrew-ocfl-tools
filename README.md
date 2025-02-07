@@ -1,4 +1,4 @@
-# Srerickson Ocfl-tools
+# Homebrew Formula for ocfl-tools
 
 ## How do I install these formulae?
 
