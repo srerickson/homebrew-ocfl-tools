@@ -1,8 +1,8 @@
 class Ocfl < Formula
   desc "Command-line tools for working with OCFL-based repositories"
   homepage "https://github.com/srerickson/ocfl-tools"
-  url "https://github.com/srerickson/ocfl-tools/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "f1b0762ce7da40c4f9d7d852e6ebd9b58f6c4c7eed4617476c112f8b48b1a863"
+  url "https://github.com/srerickson/ocfl-tools/archive/refs/tags/v0.3.1.tar.gz"
+  sha256 "46c3e10b865c9ca7de49b512cd3716f83c090519de4336d6e74f4f210ae2dbe2"
   license "MIT"
 
   depends_on "go" => :build
