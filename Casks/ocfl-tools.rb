@@ -29,7 +29,4 @@ cask "ocfl-tools" do
   end
 
   binary "ocfl"
-
-  # No zap stanza required
-
 end
