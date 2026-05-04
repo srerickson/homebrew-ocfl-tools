@@ -1,18 +1,7 @@
-# Homebrew Formulae for ocfl-tools
+# Homebrew Tap for ocfl-tools
 
-## How do I install these formulae?
+## How do I install?
 
-`brew install srerickson/ocfl-tools/<formula>`
+`brew install srerickson/ocfl-tools/ocfl`
 
-Or `brew tap srerickson/ocfl-tools` and then `brew install <formula>`.
-
-Or, in a [`brew bundle`](https://github.com/Homebrew/homebrew-bundle) `Brewfile`:
-
-```ruby
-tap "srerickson/ocfl-tools"
-brew "<formula>"
-```
-
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+Or `brew tap srerickson/ocfl-tools` and then `brew install ocfl`.
