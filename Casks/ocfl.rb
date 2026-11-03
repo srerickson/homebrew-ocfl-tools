@@ -3,9 +3,11 @@ cask "ocfl" do
   version "0.5.0"
 
   on_macos do
-    depends_on arch: :arm64
     sha256 "8f37c072c9f45cf6425fc59ce061e05780e8670d60c065662973f55181b7fa8a"
+
     url "https://github.com/srerickson/ocfl-tools/releases/download/v#{version}/ocfl-tools_Darwin_arm64.tar.gz"
+
+    depends_on arch: :arm64
   end
   on_linux do
     on_arm do
@@ -34,7 +36,7 @@ cask "ocfl" do
     end
   end
 
-  # No zap stanza required
+  zap :not_required
 
   caveats <<~EOS
     If a previous version was installed with the `ocfl` formula, remove it so
